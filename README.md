@@ -63,6 +63,7 @@ void delay_us(uint32_t us)
     __HAL_TIM_SET_COUNTER(&htim2, 0);
     while (__HAL_TIM_GET_COUNTER(&htim2) < us);
 }
+```
 
 Explanation : 
 
@@ -80,6 +81,7 @@ while (1)
     HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_8);
     delay_us(100);
 }
+```
 
 Explanation : 
 
@@ -93,6 +95,7 @@ Explanation :
 
 ```c
 HAL_TIM_Base_Start(&htim2);
+```
 
 Functionality : 
 Starts TIM2 timer required for delay generation
