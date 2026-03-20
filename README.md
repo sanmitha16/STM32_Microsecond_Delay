@@ -1,3 +1,4 @@
+
 STM32 Square Wave Generation using Microsecond Delay
 
 Overview
@@ -62,3 +63,4 @@ Key Learnings :
 3. Microsecond delay using hardware timer
 4. Square wave generation
 5. Oscilloscope signal verification
+
